@@ -1,4 +1,4 @@
-## **Plans**
+## **Requirements**
 
 ### **Summary**
 
@@ -52,11 +52,11 @@ Web App Employee Finder **(React + React Query + Component Library)**:
 
 ### **Services**
 
-- Auth solution for all authentication needs. **(Backend, Pocketbase Auth, Auth0, JWT)**
-- Backend API for responding to dashboard, employee finder, and mobile app. **(Pocketbase Backend, NodeTS on Railway)**
-- Database for storing user data and cvlist. **(Railway PostgreSQL, Pocketbase DB, MongoDB, Planetscale)**
-- Server process to merge user data and template (cv generation). **(docxtemplater library)**
-- File hosting for CV templates and generated CVs, with links in database. **(S3, Pocketbase File Server)**
+- Auth solution for all authentication needs.
+- Backend API for responding to dashboard, employee finder, and mobile app.
+- Database for storing user data and cvlist. 
+- Server process to merge user data and template (cv generation).
+- File hosting for CV templates and generated CVs, with links in database.
 
 - Configuration Zero:
   - Backend Functions: Firebase Cloud Functions.
@@ -64,8 +64,8 @@ Web App Employee Finder **(React + React Query + Component Library)**:
   - Auth: Firebase Auth.
   - File: Firebase File Storage.
 - Configuration One:
-  - Backend Functions: NodeJS - Railway hosting.
-  - DB: Planetscale/Mongo
+  - Backend Functions: NodeJS - Railway.
+  - DB: Planetscale/Mongo - Railway.
   - Auth: Custom, integrated to DB.
   - File: ?
 - Configuration Two:
