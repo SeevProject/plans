@@ -33,7 +33,7 @@ Mobile App **(Flutter)**:
 - Let user see list of generated cv files (cvlist).
 - Let user manage account.
 
-Web Admin Dashboard **(React + React Query + Component Library)**:
+Web Admin Dashboard **(React + React Query)**:
 
 - Let admin auth.
 - Receive all user acounts' data from the server.
@@ -43,7 +43,7 @@ Web Admin Dashboard **(React + React Query + Component Library)**:
 - Let admin create company accounts.
 - Let admin change company account permissions.
 
-Web App Employee Finder **(React + React Query + Component Library)**:
+Web App Employee Finder **(React + React Query)**:
 
 - Let company auth.
 - Receive user accounts data according to company permissions.
@@ -52,27 +52,10 @@ Web App Employee Finder **(React + React Query + Component Library)**:
 
 ### **Services**
 
-- Auth solution for all authentication needs.
-- Backend API for responding to dashboard, employee finder, and mobile app.
-- Database for storing user data and cvlist. 
-- Server process to merge user data and template (cv generation).
-- File hosting for CV templates and generated CVs, with links in database.
-
-- Configuration Zero:
-  - Backend Functions: Firebase Cloud Functions.
-  - DB: Firebase Database.
-  - Auth: Firebase Auth.
-  - File: Firebase File Storage.
-- Configuration One:
-  - Backend Functions: NodeJS - Railway.
-  - DB: Planetscale/Mongo - Railway.
-  - Auth: Custom, integrated to DB.
-  - File: ?
-- Configuration Two:
-  - Backend Functions: ?
-  - DB: Pocketbase - Linode hosting.
-  - Auth: Pocketbase - Linode hosting.
-  - File: Pocketbase - Linode hosting.
+- Auth: authentication provider - Clerk?
+- Backend: api and cv generation - Node+Railway
+- Database: storing data - Mongo+Railway
+- File Storage: storing templates, cv, and images - Wasabi?
 
 ### **Endpoints**
 
@@ -81,9 +64,6 @@ The server endpoints for the frontends to connnect to.
 ```yaml
 # all accounts
 
-- POST /auth/register: # user accounts only
-user sends auth data, and server creates account with it, and creates a session.
-
 - POST /auth/login:
 user sends auth data, and server tries to find user with said data, and creates a session.
 
@@ -91,6 +71,9 @@ user sends auth data, and server tries to find user with said data, and creates 
 user sends request for logout, and server deletes session.
 
 # user account only
+
+- POST /auth/register:
+user sends auth data, and server creates account with it, and creates a session.
 
 - POST /user:
 user sends personal data to server, and server checks for session and saves the data with current user.
@@ -220,7 +203,10 @@ interface company extends account {
 
 interface template {
   link: string;
-  fields: {}[];
+  fields: {
+    title: string;
+    char_limit: number;
+  }[];
   preview: string;
 }
 ```
