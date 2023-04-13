@@ -50,6 +50,19 @@ Web App Employee Finder **(React + React Query)**:
 - Let company filter and sort through the data.
 - Let company download from cvlist of user.
 
+### **Design**
+
+![#accenta](https://placehold.co/75x75/E1B462/black?text=AccentA)
+![#accentb](https://placehold.co/75x75/1C7FFC/black?text=AccentB)
+![#dark](https://placehold.co/75x75/232022/white?text=Dark)
+![#darkalt](https://placehold.co/75x75/302B2E/white?text=DarkAlt)
+![#light](https://placehold.co/75x75/FFFFFF/black?text=Light)
+![#lightalt](https://placehold.co/75x75/A0A0A0/black?text=LightAlt)
+
+= `E1B462` = `1C7FFC` = `232022` = `302B2E` = `FFFFFF` = `A0A0A0` =
+
+[Design File - Draft](https://www.figma.com/file/R4vNqDJTtonLSxh9BRptIa/SeeV?node-id=0%3A1&t=jF9r5MdwAdLGR3Wa-1)
+
 ### **Services**
 
 - Auth: authentication provider - Clerk?
