@@ -28,12 +28,20 @@ The server endpoints for the frontends to connnect to.
   Description: Get a list of users associated with the specified company.
 
 # Admin Endpoints
-- GET /admin/accounts:
-  Description: Get a list of all user and company accounts.
-- POST /admin/companies:
+- GET /users:
+  Description: Get a list of all user accounts.
+- GET /companies:
+  Description: Get a list of all company accounts.
+- POST /companies:
   Description: Create a new company account.
-- PUT /admin/companies/:companyId:
+- PUT /companies/:companyId:
   Description: Update the permissions for the specified company account.
-- DELETE /admin/companies/:companyId:
+- DELETE /companies/:companyId:
   Description: Delete the specified company account.
+- POST /templates:
+  Description: Create a new template.
+- PUT /templates/:id:
+  Description: Update a template.
+- DELETE /templates/:id:
+  Description: Delete a template.
 ```
