@@ -1,55 +1,39 @@
-## **Api Endpoints**
+## **API Endpoints**
 
 The server endpoints for the frontends to connnect to.
 
 ```yaml
-# all accounts
-
+# Authentication Endpoints
 - POST /auth/login:
-user sends auth data, and server tries to find user with said data, and creates a session.
-
+  Description: Authenticate a user and start a session.
 - POST /auth/logout:
-user sends request for logout, and server deletes session.
-
-# user account only
-
+  Description: End a user's session and log them out.
 - POST /auth/register:
-user sends auth data, and server creates account with it, and creates a session.
+  Description: Create a new user account and start a session.
 
-- POST /user:
-user sends personal data to server, and server checks for session and saves the data with current user.
-
-- PUT /user:
-user sends data changes to server, and server checks for session and updates current user data.
-
-- GET /user:
-server checks user session and only sends back the data and cvlist of the current user.
-
-- POST /user/generate/-template-id-:
-user sends template id to server, and server puts user data unto the selected template. then it uploads to file server, and puts the link in user cvlist.
-
+# User Endpoints
+- GET /users/me:
+  Description: Get the current user's account and profile information.
+- PUT /users/me:
+  Description: Update the current user's profile information.
+- POST /users/me/templates/:templateId:
+  Description: Generate a resume using the specified template and the current user's profile information.
 - GET /templates:
-get a list of template previews to show user.
+  Description: Get a list of available resume templates.
 
-# company accounts only
+# Company Endpoints
+- GET /companies/me:
+  Description: Get the current company's account and profile information.
+- GET /companies/me/users:
+  Description: Get a list of users associated with the specified company.
 
-- GET /company:
-server returns the info of the company account.
-
-- GET /company/users:
-server checks company permissions and sends back the users that match it.
-
-# admin accounts only
-
+# Admin Endpoints
 - GET /admin/accounts:
-server returns all accounts data (users and companies) to admin.
-
+  Description: Get a list of all user and company accounts.
 - POST /admin/companies:
-admin sends company data and permissions to create a new company account.
-
-- PUT /admin/companies/-id-:
-admin sends changed permissions to update company acccount.
-
-- DELETE /admin/companies/-id-:
-admin requests for company account deletion.
+  Description: Create a new company account.
+- PUT /admin/companies/:companyId:
+  Description: Update the permissions for the specified company account.
+- DELETE /admin/companies/:companyId:
+  Description: Delete the specified company account.
 ```
