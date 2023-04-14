@@ -8,15 +8,9 @@
 
 ![#accenta](https://placehold.co/75x75/E1B462/black?text=AccentA)
 ![#accentb](https://placehold.co/75x75/1C7FFC/black?text=AccentB)
-
-= `E1B462` == `1C7FFC` =
-
 ![#dark](https://placehold.co/75x75/232022/white?text=Dark)
 ![#darkalt](https://placehold.co/75x75/302B2E/white?text=DarkAlt)
-
-= `232022` == `302B2E` =
-
 ![#light](https://placehold.co/75x75/FFFFFF/black?text=Light)
 ![#lightalt](https://placehold.co/75x75/A0A0A0/black?text=LightAlt)
 
-= `FFFFFF` == `A0A0A0` =
+= `E1B462` = `1C7FFC` = `232022` = `302B2E` = `FFFFFF` = `A0A0A0` =
