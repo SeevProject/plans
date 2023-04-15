@@ -2,7 +2,8 @@
 
 ### **Files**
 
-[Design File - Draft](https://www.figma.com/file/R4vNqDJTtonLSxh9BRptIa/SeeV?node-id=0%3A1&t=jF9r5MdwAdLGR3Wa-1)
+1. [Web Design File](https://www.figma.com/file/R4vNqDJTtonLSxh9BRptIa/SeeV-Web?node-id=0%3A1&t=OmlKqHA49Mxzhxtf-1)
+2. [Mobile Design File](https://www.figma.com/file/XRUjaHcrwJBJSu42xELiCT/SeeV-Mobile?node-id=0%3A1&t=mjbutj7zsYhJaOin-1)
 
 ### **Colours**
 
