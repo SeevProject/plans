@@ -21,7 +21,7 @@ Mobile App **(Flutter)**:
 - Let user see list of generated cv files (cvlist).
 - Let user manage account.
 
-Web Admin Dashboard **(React + React Query)**:
+Web App - Admins **(React + React Query)**:
 
 - Let admin auth.
 - Receive all user acounts' data from the server.
@@ -31,7 +31,7 @@ Web Admin Dashboard **(React + React Query)**:
 - Let admin create company accounts.
 - Let admin change company account permissions.
 
-Web App Employee Finder **(React + React Query)**:
+Web App - Companiess **(React + React Query)**:
 
 - Let company auth.
 - Receive user accounts data according to company permissions.
