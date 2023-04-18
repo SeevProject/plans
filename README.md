@@ -1,10 +1,14 @@
 ## **Plans**
 
-[Design](./Design.md) -
-[UI](./UI.md) -
-[Database](./Databse.md) -
-[API](./API.md) -
-[Services](./Services.md)
+### Files
+
+- [Design](./Design.md)
+- [UI](./UI.md)
+- [Database](./Databse.md)
+- [API](./API.md)
+- [Services](./Services.md)
+
+### Summary
 
 SeeV as a project will be an app for users to make their CVs easily, a data collection to use to market products, and a platform for companies to hire people based on their skills.
 
