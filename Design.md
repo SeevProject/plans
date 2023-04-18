@@ -11,7 +11,8 @@
 ![#accentb](https://placehold.co/75x75/1C7FFC/black?text=AccentB)
 ![#dark](https://placehold.co/75x75/232022/white?text=Dark)
 ![#darkalt](https://placehold.co/75x75/302B2E/white?text=DarkAlt)
+![#gray](https://placehold.co/75x75/4a4a4a/white?text=Gray)
 ![#light](https://placehold.co/75x75/FFFFFF/black?text=Light)
 ![#lightalt](https://placehold.co/75x75/A0A0A0/black?text=LightAlt)
 
-= `E1B462` = `1C7FFC` = `232022` = `302B2E` = `FFFFFF` = `A0A0A0` =
+= `E1B462` = `1C7FFC` = `232022` = `302B2E` = `4A4A4A` = `FFFFFF` = `A0A0A0` =
