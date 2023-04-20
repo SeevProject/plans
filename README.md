@@ -48,7 +48,7 @@ Mobile App **(Flutter)**:
 - Let user see list of generated cv files (cvlist).
 - Let user manage account.
 
-Web App **(React + Tailwind + React Query + Tanstack Table)**:
+Web App **(React + Tailwind + React Query + Tanstack Table + React Icons + React Router)**:
 
 - Let auth.
 - if admin:
