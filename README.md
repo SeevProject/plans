@@ -15,15 +15,33 @@ Companies, will have access to a the same web app, with less permissions, create
 1. [Web Design File](https://www.figma.com/file/R4vNqDJTtonLSxh9BRptIa/SeeV-Web?node-id=0%3A1&t=OmlKqHA49Mxzhxtf-1)
 2. [Mobile Design File](https://www.figma.com/file/XRUjaHcrwJBJSu42xELiCT/SeeV-Mobile?node-id=0%3A1&t=mjbutj7zsYhJaOin-1)
 
-![#accenta](https://placehold.co/75x75/E1B462/black?text=AccentA)
-![#accentb](https://placehold.co/75x75/1C7FFC/black?text=AccentB)
-![#dark](https://placehold.co/75x75/232022/white?text=Dark)
-![#darkalt](https://placehold.co/75x75/302B2E/white?text=DarkAlt)
-![#gray](https://placehold.co/75x75/4a4a4a/white?text=Gray)
-![#light](https://placehold.co/75x75/FFFFFF/black?text=Light)
-![#lightalt](https://placehold.co/75x75/A0A0A0/black?text=LightAlt)
+Accents
 
-= `E1B462` = `1C7FFC` = `232022` = `302B2E` = `4A4A4A` = `FFFFFF` = `A0A0A0` =
+![#highlight](https://placehold.co/75x75/E1B462/black?text=Highlight)
+![#focus](https://placehold.co/75x75/1C7FFC/black?text=Focus)
+
+= `E1B462` = `1C7FFC` =
+
+Light Theme
+
+![#bg](https://placehold.co/75x75/FAFAFA/black?text=BG)
+![#bgAlt](https://placehold.co/75x75/EBEBEB/black?text=BGAlt)
+![#border](https://placehold.co/75x75/C3C3C3/black?text=Border)
+![#fgAlt](https://placehold.co/75x75/676767/white?text=FGAlt)
+![#fg](https://placehold.co/75x75/232022/white?text=FG)
+
+= `FAFAFA` = `EBEBEB` = `C3C3C3` = `676767` = `232022` =
+
+Dark Theme
+
+![#bg](https://placehold.co/75x75/232022/white?text=BG)
+![#bgAlt](https://placehold.co/75x75/302B2E/white?text=BGAlt)
+![#border](https://placehold.co/75x75/4a4a4a/white?text=Border)
+![#fgAlt](https://placehold.co/75x75/A0A0A0/black?text=FGAlt)
+![#fg](https://placehold.co/75x75/FFFFFF/black?text=FG)
+
+= `232022` = `302B2E` = `4A4A4A` = `A0A0A0` = `FFFFFF` =
+
 
 ### Interfaces
 
