@@ -10,7 +10,7 @@ We, have a webapp accesses the data of all our users stored in the servers, and 
 
 Companies, will have access to a the same web app, with less permissions, create an account, and get (permission based) access to CVs of the users to hire as employees. They can filter and search the data completely.
 
-### Design
+### Design Guidelines
 
 1. [Web Design File](https://www.figma.com/file/R4vNqDJTtonLSxh9BRptIa/SeeV-Web?node-id=0%3A1&t=OmlKqHA49Mxzhxtf-1)
 2. [Mobile Design File](https://www.figma.com/file/XRUjaHcrwJBJSu42xELiCT/SeeV-Mobile?node-id=0%3A1&t=mjbutj7zsYhJaOin-1)
@@ -43,24 +43,24 @@ Dark Theme
 = `232022` = `302B2E` = `4A4A4A` = `A0A0A0` = `FFFFFF` =
 
 
-### Interfaces
+### Interfaces' flow
 
 Mobile App **(Flutter)**:
 
 - First time:
-- Let user create account.
-- Send account info to server.
-- Receive auth status from server and login user.
-- Get user data using form.
-- Send user data to server.
+- Let user create account with oauth, getting a token.
+- Send token back to server.
+- Receive session cookie from server and login user.
+- Get all user data using form.
+- Send all user data to server.
 - Let user choose template for generating cv from data.
 - Send request to server for putting user data unto selected template.
 - Let user see list of generated cv files (cvlist).
 - Let user view file or download file.
 - Second time:
-- Let user login.
-- Send login data to server.
-- Receive auth status from server and login user.
+- Let user login with oauth, getting a token.
+- Send token back to server.
+- Receive session cookie from server and login user.
 - Let user see their data.
 - Let user be able to update the data.
 - Let user see list of generated cv files (cvlist).
@@ -68,7 +68,9 @@ Mobile App **(Flutter)**:
 
 Web App **(React + Tailwind + React Query + Tanstack Table + React Icons + React Router)**:
 
-- Let auth.
+- Let user login using oauth, getting a token.
+- Send token back to server.
+- Receive session cookie from server and login user.
 - if admin:
 - Receive all user acounts' data from the server.
 - Display all the data, visualized.
@@ -76,8 +78,10 @@ Web App **(React + Tailwind + React Query + Tanstack Table + React Icons + React
 - Receive all company accounts' data.
 - Let admin create company accounts.
 - Let admin change company account permissions.
+- Receive all templates.
+- Let admin create templates.
+- Let admin change templates.
 - if company:
-- Let company auth.
 - Receive user accounts data according to company permissions.
 - Let company filter and sort through the data.
 - Let company download from cvlist of user.
