@@ -17,31 +17,18 @@ Companies, will have access to a the same web app, with less permissions, create
 
 Accents
 
-![#highlight](https://placehold.co/75x75/E1B462/black?text=Highlight)
-![#focus](https://placehold.co/75x75/1C7FFC/black?text=Focus)
+![#primary](https://placehold.co/120x65/1C7FFC/black?text=Primary)
+![#secondary](https://placehold.co/120x65/FC991C/black?text=Secondary)
 
-= `E1B462` = `1C7FFC` =
+=== `1C7FFC` ====== `FC991C` ===
 
-Light Theme
+![#bg](https://placehold.co/120x65/FAFAFA/black?text=Background)
+![#bgAlt](https://placehold.co/120x65/EBEBEB/black?text=Boxes)
+![#border](https://placehold.co/120x65/C3C3C3/black?text=Border)
+![#fgAlt](https://placehold.co/120x65/676767/white?text=LightText)
+![#fg](https://placehold.co/120x65/232022/white?text=Text)
 
-![#bg](https://placehold.co/75x75/FAFAFA/black?text=BG)
-![#bgAlt](https://placehold.co/75x75/EBEBEB/black?text=BGAlt)
-![#border](https://placehold.co/75x75/C3C3C3/black?text=Border)
-![#fgAlt](https://placehold.co/75x75/676767/white?text=FGAlt)
-![#fg](https://placehold.co/75x75/232022/white?text=FG)
-
-= `FAFAFA` = `EBEBEB` = `C3C3C3` = `676767` = `232022` =
-
-Dark Theme
-
-![#bg](https://placehold.co/75x75/232022/white?text=BG)
-![#bgAlt](https://placehold.co/75x75/302B2E/white?text=BGAlt)
-![#border](https://placehold.co/75x75/4a4a4a/white?text=Border)
-![#fgAlt](https://placehold.co/75x75/A0A0A0/black?text=FGAlt)
-![#fg](https://placehold.co/75x75/FFFFFF/black?text=FG)
-
-= `232022` = `302B2E` = `4A4A4A` = `A0A0A0` = `FFFFFF` =
-
+=== `FAFAFA` ====== `EBEBEB` ====== `C3C3C3` ====== `676767` ====== `232022` ===
 
 ### Interfaces' flow
 
