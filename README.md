@@ -173,8 +173,10 @@ interface user extends account {
 		courses: {
 			title: string;
 			about: string;
+			date_start: string;
+			date_end: string;
 			subjects: string[];
-			location: string;
+			organizer: string;
 		}[];
 		skills: {
 			name: string;
