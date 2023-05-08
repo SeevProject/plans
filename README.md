@@ -12,22 +12,25 @@ Companies, will have access to a the same web app, with less permissions, create
 
 ### Timeline
 
-May 4
+Start
 
-- Everyone will be setup and can contribute.
+- Everyone has setup and can contribute.
 - Everyone has started coding on web admin, mobile, and backend.
-- Mobile has 1/4 of page designs recreated.
 - Backend is connected to DB.
 - Backend has setup auth for login/register/logout.
 - Backend has all routes ready to answer with dummy data.
+- Backend has finished designing database schema.
+- Frontend uses auth from backend and has login pages working.
+- Backend has implemented auth for all routes based on account type.
+
+May 4
+
+- Mobile has 1/4 of page designs recreated.
 - Frontend has most of the libraries it needs installed and imported.
 - Frontend has 1/2 of the designs recreated of admin/companies.
-- Frontend has made many components to put in pages.
-- Backend has finished designing database schema.
-- Backend has prototype of CV generation.
-- Frontend uses auth from backend and has login pages working.
+- Frontend has made components to put in pages.
 - Frontend has implemented basic auth in router pages.
-- Backend has implemented auth for all routes based on account type.
+- Backend has prototype of CV generation.
 
 May 18
 
@@ -35,6 +38,7 @@ May 18
 - Frontend has finished recreating all designs of admin/companies.
 - Backend has added validation to routes and connected all routes to db.
 - Backend has fully working CV generation.
+- Frontend has
 
 June 1
 
