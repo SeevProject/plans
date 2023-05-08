@@ -10,6 +10,41 @@ We, have a webapp accesses the data of all our users stored in the servers, and 
 
 Companies, will have access to a the same web app, with less permissions, create an account, and get (permission based) access to CVs of the users to hire as employees. They can filter and search the data completely.
 
+### Timeline
+
+May 4
+
+- Everyone will be setup and can contribute.
+- Everyone has started coding on web admin, mobile, and backend.
+- Mobile has 1/4 of page designs recreated.
+- Backend is connected to DB.
+- Backend has setup auth for login/register/logout.
+- Backend has all routes ready to answer with dummy data.
+- Frontend has most of the libraries it needs installed and imported.
+- Frontend has 1/2 of the designs recreated of admin/companies.
+- Frontend has made many components to put in pages.
+- Backend has finished designing database schema.
+- Backend has prototype of CV generation.
+- Frontend uses auth from backend and has login pages working.
+- Frontend has implemented basic auth in router pages.
+- Backend has implemented auth for all routes based on account type.
+
+May 18
+
+- Mobile has all of designs recreated.
+- Frontend has finished recreating all designs of admin/companies.
+- Backend has added validation to routes and connected all routes to db.
+- Backend has fully working CV generation.
+
+June 1
+
+June 15
+
+June 29
+
+July 13
+
+
 ### Design Guidelines
 
 1. [Web Design File](https://www.figma.com/file/R4vNqDJTtonLSxh9BRptIa/SeeV-Web?node-id=0%3A1&t=OmlKqHA49Mxzhxtf-1)
