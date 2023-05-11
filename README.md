@@ -14,35 +14,44 @@ Companies, will have access to a the same web app, with less permissions, create
 
 Start
 
-- Everyone has setup and can contribute.
-- Everyone has started coding on web admin, mobile, and backend.
-- Backend is connected to DB.
-- Backend has setup auth for login/register/logout.
-- Backend has all routes ready to answer with dummy data.
-- Backend has finished designing database schema.
-- Frontend uses auth from backend and has login pages working.
-- Backend has implemented auth for all routes based on account type.
+- All - done setup
+- Backend DB - connection and schema setup
+- Backend Auth - working login/register/logout
+- Backend Router - dummy data serving
+- Backend Auth - integrated with router and allow based on user type
+- Frontend Auth - connected to backend
 
 May 4
 
-- Mobile has 1/4 of page designs recreated.
-- Frontend has most of the libraries it needs installed and imported.
-- Frontend has 1/2 of the designs recreated of admin/companies.
-- Frontend has made components to put in pages.
-- Frontend has implemented basic auth in router pages.
-- Backend has prototype of CV generation.
+- Mobile UI - 1/4 pages recreated
+- Frontend Setup - most libraries needed installed
+- Frontend UI - layouts recreated roughly
+- Backend API - prototype cv generation ready
 
 May 18
 
-- Mobile has all of designs recreated.
-- Frontend has finished recreating all designs of admin/companies.
-- Backend has added validation to routes and connected all routes to db.
-- Backend has fully working CV generation.
-- Frontend has
+- Mobile UI - 3/4 pages recreated
+- Frontend UI - all pages recreated (without data tables)
+- Frontend Auth - router integrated with auth
+- Backend API - all routes integrated with DB
+- Backend API - file upload working
+- Backend API - cv generation fully ready
 
 June 1
 
+- Frontend UI - menus recreated
+- Frontend Data - data fetching from backend api
+- Mobile UI - all pages recreated
+- Mobile State - form state is saved
+- Backend API - data validation added for routes with request data
+
 June 15
+
+- Frontend UI - data tables to display data
+- Frontend Data/UI - all items editable for admin user
+- Mobile Data - fetching from server and posting to server
+- Mobile Logic - opening links / saving for cv
+- Mobile Logic - compare user data to template
 
 June 29
 
