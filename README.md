@@ -43,12 +43,15 @@ June 1
 - Frontend Data - data fetching from backend api
 - Mobile UI - all pages recreated
 - Mobile State - form state is saved
+- Backend API - all routes functional and complete
 - Backend API - data validation added for routes with request data
 
 June 15
 
 - Frontend UI - data tables to display data
 - Frontend Data/UI - all items editable for admin user
+- Backend API - improve response messages
+- Backend API - 
 - Mobile Data - fetching from server and posting to server
 - Mobile Logic - opening links / saving for cv
 - Mobile Logic - compare user data to template
