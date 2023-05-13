@@ -148,8 +148,6 @@ The server endpoints for the frontends to connnect to.
   Get the current user's account and profile information.
 - PUT /users/me: # users
   Update the current user's profile information.
-- POST /users/me/generate/:id: # users
-  Generate a resume using the specified template and the current user's profile information.
 - GET /users: # admins, companies
   Get a list of all user accounts or only specific users if company.
 
@@ -159,6 +157,8 @@ The server endpoints for the frontends to connnect to.
   Update a template.
 - DELETE /templates/:id: # admins
   Delete a template.
+- POST /templates/:id: # users
+  Generate a resume using the specified template and the user's profile information.
 - POST /templates: # admins
   Create a new template.
 
