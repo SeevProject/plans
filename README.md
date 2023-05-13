@@ -125,7 +125,11 @@ Static Page **(Astro + Tailwind)**
 
 - Show project info
 
-### Services Configuration
+### Architecture
+
+[Diagram File](https://www.figma.com/file/XUmqClPoA4KmqHwp4H3aqg/Architecture?type=whiteboard&node-id=0-1&t=Dw3dkLHxMOPe4qhP-0)
+
+Services Configuration:
 
 - Auth: authentication provider - FirebaseAuth
 - Backend: api and cv generation - Node on Railway
