@@ -25,14 +25,13 @@ May 4
 
 - Mobile UI - 1/4 pages recreated
 - Frontend Setup - most libraries needed installed
-- Frontend UI - layouts recreated roughly
 - Backend API - prototype cv generation ready
 
 May 18
 
-- Mobile UI - 3/4 pages recreated
+- Mobile UI - 1/2 pages recreated
+- Frontend UI - layouts recreated roughly
 - Frontend UI - all pages recreated (without data tables)
-- Frontend Auth - router integrated with auth
 - Backend API - all routes integrated with DB
 - Backend API - file upload working
 - Backend API - cv generation fully ready
@@ -40,7 +39,7 @@ May 18
 June 1
 
 - Frontend UI - menus recreated
-- Frontend Data - data fetching from backend api
+- Frontend Auth - router integrated with auth
 - Mobile UI - all pages recreated
 - Mobile State - form state is saved
 - Backend API - all routes functional and complete
@@ -49,14 +48,17 @@ June 1
 June 15
 
 - Frontend UI - data tables to display data
-- Frontend Data/UI - all items editable for admin user
+- Frontend Data - data fetching from backend api
 - Backend API - improve response messages
-- Backend API - 
 - Mobile Data - fetching from server and posting to server
-- Mobile Logic - opening links / saving for cv
 - Mobile Logic - compare user data to template
 
 June 29
+
+- Frontend Data/UI - all items editable for admin user
+- Frontend UI - create static landing page
+- Mobile Logic - opening links / saving for cv
+- Mobile Auth - login and signup works
 
 July 13
 
