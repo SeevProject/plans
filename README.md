@@ -31,25 +31,25 @@ May 18
 
 - Mobile UI - 1/2 pages recreated
 - Frontend UI - layouts recreated roughly
-- Frontend UI - all pages recreated (without data tables)
 - Backend API - all routes integrated with DB
 - Backend API - file upload working
 - Backend API - cv generation fully ready
 
 June 1
 
-- Frontend UI - menus recreated
+- Frontend UI - all page recreated
+- Frontend UI - all menus created
 - Frontend Auth - router integrated with auth
 - Mobile UI - all pages recreated
 - Mobile State - form state is saved
-- Backend API - all routes functional and complete
-- Backend API - data validation added for routes with request data
-
+- Backend API - all template routes ready and test generator
+- Backend API - test out all routes with validation
+- Backend API - improve response messages
+	
 June 15
 
 - Frontend UI - data tables to display data
 - Frontend Data - data fetching from backend api
-- Backend API - improve response messages
 - Mobile Data - fetching from server and posting to server
 - Mobile Logic - compare user data to template
 
