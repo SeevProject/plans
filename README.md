@@ -150,12 +150,14 @@ The server endpoints for the frontends to connnect to.
   Authenticate a user and start a session.
 - POST /auth/logout: # users, companies
   End a user's session and log them out.
-- POST /auth/register: # users
-  Create a new user account and start a session.
+- POST /auth/register: # users, companies
+  Create a new user/company account and start a session.
 
 - GET /users/me: # users
   Get the current user's account and profile information.
-- PUT /users/me: # users
+- PUT /users/me/data: # users
+  Update the current user's profile information.
+- PUT /users/me/picture: # users
   Update the current user's profile information.
 - GET /users: # admins, companies
   Get a list of all user accounts or only specific users if company.
