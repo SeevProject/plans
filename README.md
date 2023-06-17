@@ -38,26 +38,28 @@ May 18
 June 1
 
 - Frontend UI - all page recreated
-- Frontend UI - all menus created
-- Frontend Auth - router integrated with auth
+- Frontend UI - half the menus created
 - Mobile UI - all pages recreated
-- Mobile State - form state is saved
 - Backend API - all template routes ready and test generator
 - Backend API - test out all routes with validation
-- Backend API - improve response messages
-	
 
 June 15
 
+- Frontend UI - half the menus created
 - Frontend UI - data tables to display data
+- Frontend Auth - router integrated with auth
 - Frontend Data - data fetching from backend api
+- Mobile UI - 5 pages finished
+- Mobile State - form state is saved
 - Mobile Data - fetching from server and posting to server
-- Mobile Logic - compare user data to template
+- Backend API - improve response messages
+- Backend Generator - improve template generation
 
 June 29
 
 - Frontend Data/UI - all items editable for admin user
 - Frontend UI - create static landing page
+- Mobile Logic - compare user data to template
 - Mobile Logic - opening links / saving for cv
 - Mobile Auth - login and signup works
 
