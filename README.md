@@ -46,24 +46,24 @@ June 1
 June 15
 
 - Frontend UI - half the menus created
-- Frontend UI - data tables to display data
-- Frontend Auth - router integrated with auth
-- Frontend Data - data fetching from backend api
 - Mobile UI - 5 pages finished
-- Mobile State - form state is saved
-- Mobile Data - fetching from server and posting to server
 - Backend API - improve response messages
-- Backend Generator - improve template generation
 
-June 29
+July 11
 
 - Frontend Data/UI - all items editable for admin user
 - Frontend UI - create static landing page
+- Frontend UI - data tables to display data
+- Frontend Auth - router integrated with auth
+- Frontend Data - data fetching from backend api
+- Mobile State - form state is saved
+- Mobile Data - fetching from server and posting to server
 - Mobile Logic - compare user data to template
 - Mobile Logic - opening links / saving for cv
 - Mobile Auth - login and signup works
+- Backend Generator - improve template generation
 
-July 13
+August 1
 
 
 ### Design Guidelines
